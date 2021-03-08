@@ -7,7 +7,6 @@ export class Server extends Http {
     // this.initGlobal();
     this.app = app;
     console.log('initServices');
-    this.webPath = '/incopat4_war_exploded/';
     this.webPath = '/';
     // 获取左侧树 路径
     // this.GET_REPORT_TREE = `${this.webPath}advancedAnalysis/queryLeftInfo`;
